@@ -2,116 +2,395 @@
 <!-- This site was created in Webflow. http://www.webflow.com-->
 <!-- Last Published: Tue Apr 01 2014 12:30:42 GMT+0000 (UTC) -->
 <html data-wf-site="533ab156fbf299035f0004b7" lang="zh-tw">
-  <head>
-    <meta charset="utf-8">
-    <title>hyt</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/normalize.css">
-    <link rel="stylesheet" type="text/css" href="css/webflow.css">
-    <link rel="stylesheet" type="text/css" href="css/hyy.webflow.css">
-    <script type="text/javascript" src="js/modernizr.js"></script>
-    <link rel="shortcut icon" type="image/x-icon" href="https://y7v4p6k4.ssl.hwcdn.net/placeholder/favicon.ico">
-    <link rel="apple-touch-icon" href="https://y7v4p6k4.ssl.hwcdn.net/51e1a6dc3bc6b24571000014/51e1ba063522c7b57b000061_thumbnail-starter.png">
-  </head>
-  <body>
-    <div class="w-row">
-      <div class="w-col w-col-4 left-sidebar">
-        <div class="fixed-nav">
-          <img class="logo" src="images/logo.png" width="268px"><a class="nav-link" href="#page-nav-Section 1" target="_self">NAV Link 1</a><a class="nav-link" href="#page-nav-Section 2" target="_self">NAV Link 2</a><a class="nav-link" href="#page-nav-Section 3" target="_self">NAV Link 3</a><a class="nav-link"
-          href="#">NAV Link 4</a><a class="nav-link" href="#">Nav Link 5</a>
-          <div class="italic-text">Here is some footer text or page description text.</div>
-          <a class="w-inline-block social-icon" href="#">
-          <img src="images/8a-social-email.png" width="21px" alt="51e1b24abceaf5b67b000053_8a-social-email.png">
-          </a>
-          <a class="w-inline-block social-icon" href="#">
-          <img src="images/8b-social-facebook.png" width="21px" alt="51e1b2893bc6b24571000016_8b-social-facebook.png">
-          </a>
-          <a class="w-inline-block social-icon" href="#" target="_self">
-          <img src="images/8c-social-twitter.png" width="21px" alt="51e1b2923bc6b24571000017_8c-social-twitter.png">
-          </a>
+<head>
+  <meta charset="utf-8">
+  <title>宏益舞台特效有限公司</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/webflow.css">
+  <link rel="stylesheet" type="text/css" href="css/hyy.webflow.css">
+
+  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+  <!-- Add jQuery library -->
+  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+  <!-- Add mousewheel plugin (this is optional) -->
+  <script type="text/javascript" src="fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+
+  <!-- Add fancyBox -->
+  <link rel="stylesheet" href="../fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+  <script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+  <!-- Optionally add helpers - button, thumbnail and/or media -->
+  <link rel="stylesheet" href="../fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen">
+  <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+  <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+
+  <link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen">
+  <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+
+  <script type="text-javascript">
+  $(document).ready(function() {
+    $(".various").fancybox({
+      maxWidth  : 800,
+      maxHeight : 600,
+      fitToView : false,
+      width   : '70%',
+      height    : '70%',
+      autoSize  : false,
+      closeClick  : false,
+      openEffect  : 'none',
+      closeEffect : 'none'
+    });
+  });
+
+
+
+
+
+  // $(document).ready(function() {
+  //   $(".fancybox").fancybox();
+  //     /*
+  //      *  Media helper. Group items, disable animations, hide arrows, enable media and button helpers.
+  //     */
+  //     $('.fancybox-media')
+  //       .attr('rel', 'media-gallery')
+  //       .fancybox({
+  //         openEffect : 'none',
+  //         closeEffect : 'none',
+  //         prevEffect : 'none',
+  //         nextEffect : 'none',
+
+  //         arrows : false,
+  //         helpers : {
+  //           media : {},
+  //           buttons : {}
+  //         }
+  //       });
+  // });
+
+
+  // $(function() {
+  //   $('a[href*=#]:not([href=#])').click(function() {
+  //     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+  //       var target = $(this.hash);
+  //       target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+  //       if (target.length) {
+  //         $('html,body').animate({  
+  //           scrollTop: target.offset().top
+  //         }, 1000);
+  //         return false;
+  //       }
+  //     }
+  //   });
+  // });
+</script>
+
+
+
+
+
+<script type="text/javascript" src="js/modernizr.js"></script>
+
+
+
+<link rel="shortcut icon" type="image/x-icon" href="https://y7v4p6k4.ssl.hwcdn.net/placeholder/favicon.ico">
+<link rel="apple-touch-icon" href="https://y7v4p6k4.ssl.hwcdn.net/51e1a6dc3bc6b24571000014/51e1ba063522c7b57b000061_thumbnail-starter.png">
+</head>
+<body>
+  <div class="w-row">
+    <div class="w-col w-col-4 left-sidebar">
+      <div class="fixed-nav">
+        <a href="#carousel-example-generic"><img class="logo" src="images/logo.png" width="590"></a>
+        <a class="nav-link" href="#page-nav-Section 1">舞台煙火</a>
+        <a class="nav-link" href="#page-nav-Section 2">升空煙火類</a>
+        <a class="nav-link" href="#page-nav-Section 3">特殊煙火</a>
+        <a class="nav-link" href="#page-nav-Section 4">鋼瓶發射類</a>
+        <a class="nav-link" href="#page-nav-Section 5">道具類</a>
+        <a class="nav-link" href="#page-nav-Section 6">機械式</a>
+
+
+        <div class="contact-us">
+          <button type="button" class="btn btn-default">台北總公司 Taipei</button>
+
+          <p>
+            地址：台北市內湖區新湖二路164號<br>
+            電話：(02)2790-7765<br>
+            傳真：(02)2790-7435<br>
+
+          </p>
+         
+          <button type="button" class="btn btn-default">屏東分公司 Pingtung</button>
+
+          <p>
+            地址：屏東縣九如鄉耆老村耆老路30號<br>
+            電話：(08)7752-261<br>
+            傳真：(08)7753-203<br>
+            行動電話：0927-696-025 陳先生<br>
+
+          </p>
+
+
+
         </div>
+        
+
+
+
+
+
+
+        <a class="w-inline-block social-icon" href="mailto:hongyii@ms18.hinet.net">
+          <img src="images/8a-social-email.png" width="21px" alt="51e1b24abceaf5b67b000053_8a-social-email.png">
+        </a>
+        <a class="w-inline-block social-icon" href="#">
+          <img src="images/8b-social-facebook.png" width="21px" alt="51e1b2893bc6b24571000016_8b-social-facebook.png">
+        </a>
+        <div class="italic-text">&copy;2014 Hong-Yi Tech Co., LTD. All rights reserved.</div>
+
       </div>
-      <div class="w-col w-col-8 content-column">
-        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-          <!-- Indicators -->
-          <ol class="carousel-indicators">
-            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-          </ol>
-          <!-- Wrapper for slides -->
-          <div class="carousel-inner">
-            <div class="item active">
-              <img src="http://pool.twincitiesdailyphoto.com/2007/kid_rock-02.jpg">
-              <div class="carousel-caption">
-                hhhyyy
-              </div>
-            </div>
-              <div class="item">
-              <img src="http://pool.twincitiesdailyphoto.com/2007/kid_rock-02.jpg">
-              <div class="carousel-caption">
-                hhhyyy
-              </div>
-            </div>
-              <div class="item">
-              <img src="http://pool.twincitiesdailyphoto.com/2007/kid_rock-02.jpg">
-              <div class="carousel-caption">
-                hhhyyy
-              </div>
+    </div>
+    <div class="w-col w-col-8 content-column">
+      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="images/item.png">
+            <div class="carousel-caption">
+              slide01
             </div>
           </div>
-          <!-- Controls -->
-          <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-          <span class="glyphicon glyphicon-chevron-left"></span>
-          </a>
-          <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-          <span class="glyphicon glyphicon-chevron-right"></span>
-          </a>
+          <div class="item">
+            <img src="images/item.png">
+            <div class="carousel-caption">
+              slide02
+            </div>
+          </div>
+          <div class="item">
+            <img src="images/item.png">
+            <div class="carousel-caption">
+              slide03
+            </div>
+          </div>
         </div>
-        <div class="image-example"></div>
-        <div class="content-block">
-          <h1 id="page-nav-Section 1">Section heading</h1>
-          <p>Section description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+      </div>
+      <div class="content-block">
+        <p>空間魔法學院「宏益舞台特效有限公司」成立於民國七十五年，在張明益總經理領導下，目前是台灣最具規模的舞台特效公司，在「安全為先，顧客至上」的經營哲學引導下，宏益不斷引進及研發全球最先進的焰火特效產品，並發展先進科技的施放技術領域。所以無論是國家級慶典活動、國內外大型演唱會、晚會、電視節目，甚至於街頭、校園、廟會的活動，都有宏益的「魔法蹤影」，而您的需求與肯定，與觀眾一次又一次的讚嘆與驚呼，宏益魔法，永遠為您施展。魔法師守則一 經營哲學-安全為先，顧客至上。魔法師守則二 經營理念-專業、科技、求新。魔法師守則三 經營目標-為每一場演出，主動創造精緻的感官震撼與驚奇。</p>
+      </div>
+      <div class="image-example"></div>
+      <div class="content-block">
+        <h1 id="page-nav-Section 1">舞台煙火</h1>
+        <div class="w-row">
+          <div class="w-col w-col-4 w-col-small-4">
+
+
+            <a class="various fancybox.iframe" href="https://www.youtube.com/embed/yovi51Rqd3Q"><img src="http://img.youtube.com/vi/yovi51Rqd3Q/1.jpg" width="200" height="200"></a>
+            <div class="caption">1-1 爆點 Air Burst</div>
+          </div>
+          <div class="w-col w-col-4 w-col-small-4">
+            <img src="http://img.youtube.com/vi/yovi51Rqd3Q/1.jpg" width="200" height="200">
+            <div class="caption">1-2 震雷 Concussion Flash Poweder</div>
+          </div>
+          <div class="w-col w-col-4 w-col-small-4">
+            <img src="http://img.youtube.com/vi/yovi51Rqd3Q/1.jpg" width="200" height="200">
+            <div class="caption">1-3 紅色閃光 Flare Red</div>
+          </div>
+
+          <div class="w-col w-col-4 w-col-small-4">
+            <img src="http://img.youtube.com/vi/yovi51Rqd3Q/1.jpg" width="200" height="200">
+            <div class="caption">1-4 火花爆筒</div>
+          </div>
+          <div class="w-col w-col-4 w-col-small-4">
+            <img src="http://img.youtube.com/vi/yovi51Rqd3Q/1.jpg" width="200" height="200">
+            <div class="caption">1-5 舞台小煙火</div>
+          </div>          
+          <div class="w-col w-col-4 w-col-small-4">
+            <img src="http://img.youtube.com/vi/yovi51Rqd3Q/1.jpg" width="200" height="200">
+            <div class="caption">1-6 大噴泉煙火 Big Gerb</div>
+          </div>
+
+          <div class="w-col w-col-4 w-col-small-4">
+            <img src="http://img.youtube.com/vi/yovi51Rqd3Q/1.jpg" width="200" height="200">
+            <div class="caption">1-7 瞬間煙火 Stage Gerb</div>
+          </div>
+          <div class="w-col w-col-4 w-col-small-4">
+            <img src="http://img.youtube.com/vi/yovi51Rqd3Q/1.jpg" width="200" height="200">
+            <div class="caption">1-8 花束煙火 Mini Mine</div>
+          </div>          
+          <div class="w-col w-col-4 w-col-small-4">
+            <img src="http://img.youtube.com/vi/yovi51Rqd3Q/1.jpg" width="200" height="200">
+            <div class="caption">1-9 光珠煙火</div>
+          </div>
+
+          <div class="w-col w-col-4 w-col-small-4">
+            <img src="http://img.youtube.com/vi/yovi51Rqd3Q/1.jpg" width="200" height="200">
+            <div class="caption">1-10 火球煙火</div>
+          </div>
+          <div class="w-col w-col-4 w-col-small-4">
+            <img src="http://img.youtube.com/vi/yovi51Rqd3Q/1.jpg" width="200" height="200">
+            <div class="caption">1-11 煙火瀑布 Waterfall</div>
+          </div>          
+          <div class="w-col w-col-4 w-col-small-4">
+            <img src="http://img.youtube.com/vi/yovi51Rqd3Q/1.jpg" width="200" height="200">
+            <div class="caption">1-12 流星飛箭 Line Rocket</div>
+          </div>
+
+          <div class="w-col w-col-4 w-col-small-4">
+            <img src="http://img.youtube.com/vi/yovi51Rqd3Q/1.jpg" width="200" height="200">
+            <div class="caption">1-13 V型煙火 V Stage Gerb</div>
+          </div>
+          <div class="w-col w-col-4 w-col-small-4">
+            <img src="http://img.youtube.com/vi/yovi51Rqd3Q/1.jpg" width="200" height="200">
+            <div class="caption">1-14 三叉噴泉(三管煙火) Fountain Stage Gerb</div>
+          </div>          
+          <div class="w-col w-col-4 w-col-small-4">
+            <img src="http://img.youtube.com/vi/yovi51Rqd3Q/1.jpg" width="200" height="200">
+            <div class="caption">1-15 霹靂風火輪 Cycle Stage Gerb</div>
+          </div>
+
+          <div class="w-col w-col-4 w-col-small-4">
+            <img src="http://img.youtube.com/vi/yovi51Rqd3Q/1.jpg" width="200" height="200">
+            <div class="caption">1-16 搖擺煙火 Wave Stage Gerb</div>
+          </div>
+          <div class="w-col w-col-4 w-col-small-4">
+            <img src="http://img.youtube.com/vi/yovi51Rqd3Q/1.jpg" width="200" height="200">
+            <div class="caption">1-17 火鳥煙火 Firebird Fireworks</div>
+          </div>          
+          <div class="w-col w-col-4 w-col-small-4">
+            <img src="http://img.youtube.com/vi/yovi51Rqd3Q/1.jpg" width="200" height="200">
+            <div class="caption">1-18 星空煙火</div>
+          </div>
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="image-example"></div>
+      <div class="content-block">
+        <h1 id="page-nav-Section 2">升空煙火類</h1>
+        <p>Section description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus
           nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
           <div class="w-row">
             <div class="w-col w-col-4 w-col-small-4">
               <img src="http://uploads.webflow.com/placeholder/image-placeholder.svg" alt="image-placeholder.svg">
-              <div class="caption">This is an image caption or something.</div><a class="button" href="#">Button Text</a>
+              <div class="caption">This is an image caption or something.</div>
             </div>
             <div class="w-col w-col-4 w-col-small-4">
               <img src="http://uploads.webflow.com/placeholder/image-placeholder.svg" alt="image-placeholder.svg">
-              <div class="caption">This is an image caption or something.</div><a class="button" href="#">Button Text</a>
+              <div class="caption">This is an image caption or something.</div>
             </div>
             <div class="w-col w-col-4 w-col-small-4">
               <img src="http://uploads.webflow.com/placeholder/image-placeholder.svg" alt="image-placeholder.svg">
-              <div class="caption">This is an image caption or something.</div><a class="button" href="#">Button Text</a>
+              <div class="caption">This is an image caption or something.</div>
             </div>
           </div>
         </div>
         <div class="image-example"></div>
         <div class="content-block">
-          <h1 id="page-nav-Section 2">Another section heading</h1>
+          <h1 id="page-nav-Section 3">特殊煙火</h1>
           <p>Section description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus
-          nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
-          <p>Section description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus
-          nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p><a class="button" href="#">Button Text</a>
-        </div>
-        <div class="image-example"></div>
-        <div class="content-block">
-          <h1 id="page-nav-Section 3">Another section heading</h1>
-          <p>Section description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus
-          nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
-          <p>Section description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus
-          nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p><a class="button" href="#">Button Text</a>
-        </div>
-        <div class="footer-section">
-          <div class="italic-text footer">Some footer text can go here.&nbsp;Maecenas faucibus mollis interdum. Nullam quis risus eget urna mollis ornare vel eu leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</div>
-        </div>
-      </div>
-    </div>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/webflow.js"></script>
-  </body>
-</html>
+            nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
+            <div class="w-row">
+              <div class="w-col w-col-4 w-col-small-4">
+                <img src="http://uploads.webflow.com/placeholder/image-placeholder.svg" alt="image-placeholder.svg">
+                <div class="caption">This is an image caption or something.</div>
+              </div>
+              <div class="w-col w-col-4 w-col-small-4">
+                <img src="http://uploads.webflow.com/placeholder/image-placeholder.svg" alt="image-placeholder.svg">
+                <div class="caption">This is an image caption or something.</div>
+              </div>
+              <div class="w-col w-col-4 w-col-small-4">
+                <img src="http://uploads.webflow.com/placeholder/image-placeholder.svg" alt="image-placeholder.svg">
+                <div class="caption">This is an image caption or something.</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="image-example"></div>
+          <div class="content-block">
+            <h1 id="page-nav-Section 4">鋼瓶發射類</h1>
+            <p>Section description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus
+              nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
+              <div class="w-row">
+                <div class="w-col w-col-4 w-col-small-4">
+                  <img src="http://uploads.webflow.com/placeholder/image-placeholder.svg" alt="image-placeholder.svg">
+                  <div class="caption">This is an image caption or something.</div>
+                </div>
+                <div class="w-col w-col-4 w-col-small-4">
+                  <img src="http://uploads.webflow.com/placeholder/image-placeholder.svg" alt="image-placeholder.svg">
+                  <div class="caption">This is an image caption or something.</div>
+                </div>
+                <div class="w-col w-col-4 w-col-small-4">
+                  <img src="http://uploads.webflow.com/placeholder/image-placeholder.svg" alt="image-placeholder.svg">
+                  <div class="caption">This is an image caption or something.</div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="image-example"></div>
+            <div class="content-block">
+              <h1 id="page-nav-Section 5">道具類</h1>
+              <p>Section description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus
+                nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
+                <div class="w-row">
+                  <div class="w-col w-col-4 w-col-small-4">
+                    <img src="http://uploads.webflow.com/placeholder/image-placeholder.svg" alt="image-placeholder.svg">
+                    <div class="caption">This is an image caption or something.</div>
+                  </div>
+                  <div class="w-col w-col-4 w-col-small-4">
+                    <img src="http://uploads.webflow.com/placeholder/image-placeholder.svg" alt="image-placeholder.svg">
+                    <div class="caption">This is an image caption or something.</div>
+                  </div>
+                  <div class="w-col w-col-4 w-col-small-4">
+                    <img src="http://uploads.webflow.com/placeholder/image-placeholder.svg" alt="image-placeholder.svg">
+                    <div class="caption">This is an image caption or something.</div>
+                  </div>
+                </div>
+              </div>
+              <div class="image-example"></div>
+              <div class="content-block">
+                <h1 id="page-nav-Section 6">機械式</h1>
+                <p>Section description. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus
+                  nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
+                  <div class="w-row">
+                    <div class="w-col w-col-4 w-col-small-4">
+                      <img src="http://uploads.webflow.com/placeholder/image-placeholder.svg" alt="image-placeholder.svg">
+                      <div class="caption">This is an image caption or something.</div>
+                    </div>
+                    <div class="w-col w-col-4 w-col-small-4">
+                      <img src="http://uploads.webflow.com/placeholder/image-placeholder.svg" alt="image-placeholder.svg">
+                      <div class="caption">This is an image caption or something.</div>
+                    </div>
+                    <div class="w-col w-col-4 w-col-small-4">
+                      <img src="http://uploads.webflow.com/placeholder/image-placeholder.svg" alt="image-placeholder.svg">
+                      <div class="caption">This is an image caption or something.</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+            <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+            <script type="text/javascript" src="js/webflow.js"></script>
+          </body>
+          </html>
