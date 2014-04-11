@@ -55,6 +55,12 @@ div {
   font-size: 14px;
 }
 
+a:hover {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
 
 
 .button {
@@ -69,7 +75,7 @@ div {
 }
 .content-block {
   width: 92%;
-  height: 1500px;
+  height: 1000px;
   margin-top: 25px;
   margin-bottom: 25px;
   padding-left: 25px;
@@ -112,6 +118,12 @@ div {
   opacity: 1;
   text-decoration: none;
 }
+
+.nav-link:focus .nav-link:active {
+  color: red;
+  text-decoration: none;
+}
+
 .image-example {
   height: 380px;
   background-image: url('../images/example-bg.png');
@@ -168,7 +180,7 @@ div {
 }
 
 .contact-us {
-  margin-top: 20px;
+  margin-top: 0px;
   text-align: left;
   padding-left: 25px;
 }
@@ -181,7 +193,15 @@ div {
 }
 
 
+.table {
+  width: 100%;
+  
 }
+
+#history {
+  padding: 0px 25px;
+}
+
 
 
 @media (max-width: 991px) {
